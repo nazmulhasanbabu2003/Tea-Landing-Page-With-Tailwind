@@ -22,6 +22,9 @@
                 extend: {
                     colors: {
                         clifford: '#da373d',
+                    },
+                    fontFamily: {
+                      manrope: ['Manrope','sans-serif'],
                     }
                 }
             }
@@ -29,7 +32,7 @@
     </script>
 </head>
 
-<body>
+<body class="font-manrope">
     <main class="max-w-screen-xl mx-auto px-16 lg:px-28">
         <!-- Header Section -->
          <header class="lg:flex pt-10 mb-20">
@@ -203,7 +206,39 @@
          </section>
 
          <!-- New Section -->
-
+         <section class="mb-24">
+          <div>
+            <h1 class="text-5xl text-center mb-5">News & Events</h1>
+            <p class="text-gray-600 text-center mb-12">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
+          </div>
+          <!-- New Section Cards -->
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+            <!-- Card 1 -->
+            <div class="rounded-xl px-5 py-5 space-y-2 text-left shadow-2xl">
+              <img class="w-full" src="images/news-1.png" alt="">
+              <small class="text-gray-600">Feb 05, 2027</small>
+              <h1 class="text-2xl font-extrabold text-black">Collecting 8 points for discount</h1>
+              <p class="text-gray-600 mb-3">There are many variations of passages of Lorem Ipsum available.</p>
+              <a class="text-black font-bold" href="">Learn More</a>
+            </div>
+            <!-- Card 2 -->
+            <div class="rounded-xl px-5 py-5 space-y-2 text-left shadow-2xl">
+              <img class="w-full" src="images/news-2.png" alt="">
+              <small class="text-gray-600">Feb 05, 2027</small>
+              <h1 class="text-2xl font-extrabold text-black">Collecting 8 points for discount</h1>
+              <p class="text-gray-600 mb-3">There are many variations of passages of Lorem Ipsum available.</p>
+              <a class="text-black font-bold" href="">Learn More</a>
+            </div>
+            <!-- Card 1 -->
+            <div class="rounded-xl px-5 py-5 space-y-2 text-left shadow-2xl">
+              <img class="w-full" src="images/news-3.png" alt="">
+              <small class="text-gray-600">Feb 05, 2027</small>
+              <h1 class="text-2xl font-extrabold text-black">Collecting 8 points for discount</h1>
+              <p class="text-gray-600 mb-3">There are many variations of passages of Lorem Ipsum available.</p>
+              <a class="text-black font-bold" href="">Learn More</a>
+            </div>
+          </div>
+         </section>
  
     </main>
 
